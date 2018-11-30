@@ -1,0 +1,32 @@
+.sidebar {
+    min-width: 100px;
+    border: 1px solid #d1d5da;
+    margin: 16px;
+    border-radius: 4px;
+    min-width: 200px;
+}
+
+.current {
+    color: red;
+}
+
+.projects {
+    list-style: none;
+}
+
+ul {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding: 4px 16px;
+}
+
+li {
+    padding: 4px 0px;
+}
+
+.sidebarTitle {
+    background: #f3f5f8;
+    padding: 4px 16px;
+    border-radius: 4px;
+    font-weight: bold;
+}

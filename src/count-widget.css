@@ -1,0 +1,17 @@
+.countWidgetContainer {
+    border-radius: 4px;
+    border: 1px solid #d1d5da;
+    margin: 8px;
+}
+
+.widgetParam {
+    background: #f3f5f8;
+    border-radius: 4px;
+    border-right: 1px solid #d1d5da;
+    padding: 0px 4px;
+}
+
+.widgetCount {
+    padding: 4px;
+}
+

@@ -1,0 +1,26 @@
+.mainView {
+    flex: 1;
+    padding: 10px 8px;
+}
+
+.mainProjectTitle {
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+.countWidgets {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.collabContainer {
+    border-radius: 4px;
+    border: 1px solid #d1d5da;
+}
+
+.collabTitle {
+    background: #f3f5f8;
+    padding: 4px;
+    border-radius: 4px;
+    font-weight: bold;
+}
