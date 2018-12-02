@@ -2,7 +2,6 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex-wrap: wrap;
     width: 200px;
     border: 1px solid #d1d5da;
     border-radius: 4px;
@@ -13,6 +12,9 @@
 .collabDetail {
     margin-left: 10px;
     flex: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .collabRank {
