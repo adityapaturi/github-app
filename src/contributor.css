@@ -1,0 +1,31 @@
+.collaborator {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 200px;
+    border: 1px solid #d1d5da;
+    border-radius: 4px;
+    margin: 5px 10px 0px 0px;
+    padding: 10px;
+}
+
+.collabDetail {
+    margin-left: 10px;
+    flex: 1;
+}
+
+.collabRank {
+    align-self: flex-start;
+    margin-top: 10px;
+}
+
+.collabId {
+    font-weight: bold;
+    margin-bottom: 4px;
+    font-size: 12pt;
+}
+
+.collabContrib {
+    font-size: 10pt;
+}

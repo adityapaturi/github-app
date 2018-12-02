@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import PropTypes from "prop-types";
 import "./count-widget.css";
 
 class CountWidget extends Component {
@@ -9,5 +10,10 @@ class CountWidget extends Component {
         </div>;
     }
 }
+
+CountWidget.propTypes = {
+    param: PropTypes.string,
+    count: PropTypes.oneOfType([PropTypes.string, PropTypes.number])
+};
 
 export default CountWidget;

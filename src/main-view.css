@@ -11,11 +11,8 @@
 .countWidgets {
     display: flex;
     justify-content: flex-end;
-}
-
-.collabContainer {
-    border-radius: 4px;
-    border: 1px solid #d1d5da;
+    flex-wrap: wrap;
+    margin-top: 25px;
 }
 
 .collabTitle {
@@ -23,4 +20,30 @@
     padding: 4px;
     border-radius: 4px;
     font-weight: bold;
+}
+
+.collabCards{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projectDescr {
+    margin: 10px 0px;
+}
+
+.collaborators {
+    min-height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.collaborators>img {
+    flex: 1;
+}
+
+.collabStatusIcon {
+    width: 32px;
+    height: 32px;
 }
